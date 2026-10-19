@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AKFORIX — Intelligent Living</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="particles"></canvas><div class="grain"></div>
+
+<div id="intro"><div class="intro-inner">
+<div class="intro-kicker mono">Initializing Intelligent Futures</div>
+<h1 class="intro-logo">AKFORIX</h1><div class="intro-line"></div>
+<div class="intro-sub mono">AI • Cloud • Digital Transformation</div>
+</div></div>
+
+<header class="hero">
+<nav class="nav"><div class="brand">AKFORIX</div><div class="nav-right mono">Intelligent Living / 2026</div></nav>
+<div class="hero-content">
+<div class="eyebrow mono">The Future of Luxury Living</div>
+<h1>THE HOME<br>THAT THINKS<br><span style="color:var(--accent)">AHEAD.</span></h1>
+<p>Technology should disappear into the way you live. AKFORIX brings intelligence, automation and luxury into one seamless experience.</p>
+<div class="scroll-cue mono"><i></i> Scroll to enter your future home</div>
+</div>
+</header>
+
+<section class="statement"><h2>THE HOME YOU <span>SEE</span> IS POWERED BY THE INTELLIGENCE YOU DON'T.</h2></section>
+
+<div class="tour-wrap">
+<section class="tour">
+<div class="tour-bg" id="tourBg"></div>
+<video class="tour-video active" id="grandLivingVideo" autoplay muted loop playsinline preload="auto" aria-label="Grand Living Room live video background">
+<source src="videos/grandLivingVideo.mp4" type="video/mp4">
+</video>
+<video class="tour-video master-video" id="masterBedroomVideo" autoplay muted loop playsinline preload="auto" aria-label="Master Bedroom curtains video background">
+<source src="videos/masterBedroomVideo.mp4" type="video/mp4">
+</video>
+<video class="tour-video kitchen-video" id="smartKitchenVideo" autoplay muted loop playsinline preload="auto" aria-label="Smart Kitchen video background">
+<source src="videos/smartKitchenVideo.mp4" type="video/mp4">
+</video>
+<video class="tour-video terrace-video" id="terraceLoungeVideo" autoplay muted loop playsinline preload="auto" aria-label="Terrace Lounge video background">
+<source src="videos/terraceLoungeVideo.mp4" type="video/mp4">
+</video>
+<div class="nodes" id="nodes">
+<span class="node" data-label="LIGHTING" style="left:63%;top:25%"></span>
+<span class="node" data-label="CLIMATE" style="left:78%;top:54%"></span>
+<span class="node" data-label="MEDIA" style="left:55%;top:68%"></span>
+</div>
+<video class="tour-video theatre-video" id="homeTheatreVideo" autoplay muted loop playsinline preload="auto" aria-label="Home Theatre video background"><source src="videos/homeTheatreVideo.mp4" type="video/mp4"></video><div class="tour-ui"><div class="tour-copy">
+<div class="tour-num" id="tourNum">01 / 05</div><h2 id="tourTitle">GRAND<br>LIVING ROOM</h2>
+<p id="tourText">Walk into a living space that adapts to your lifestyle. Lighting, curtains, entertainment and climate respond as one.</p>
+</div>
+<div class="tour-nav" id="tourNav"></div><div class="progress" id="progress"></div>
+</div>
+</section></div>
+
+<section class="intelligence">
+<div class="center-title"><div class="eyebrow mono">Beyond the rooms</div><h2>INVISIBLE<br><span style="color:var(--accent)">INTELLIGENCE.</span></h2></div>
+<div class="network">
+<div class="core">AKFORIX<br>AI CORE</div>
+<div class="n n1">SECURITY</div><div class="n n2">CLIMATE</div><div class="n n3">LIGHTING</div><div class="n n4">ENERGY</div><div class="n n5">VOICE + MEDIA</div>
+</div>
+</section>
+
+<section class="remote">
+<div><div class="eyebrow mono">Control from anywhere</div><h2>YOUR HOME.<br><span style="color:var(--accent)">IN YOUR HAND.</span></h2><p>Monitor, automate and protect your entire property from anywhere in the world. One ecosystem. One intelligent interface.</p></div>
+<div class="phone"><div class="phone-top">AKFORIX HOME / CONNECTED</div><div class="app-title">Good evening, Abdul.</div>
+<div class="status"><div>LIGHTS<b>ON</b></div><div>CLIMATE<b>22°</b></div><div>SECURITY<b>SAFE</b></div><div>ENERGY<b>68%</b></div><div>CURTAINS<b>AUTO</b></div><div>MEDIA<b>READY</b></div></div></div>
+</section>
+
+<section class="services"><div class="services-head"><div><div class="eyebrow mono">What we build</div><h2>THE AKFORIX<br>ECOSYSTEM.</h2></div></div>
+<div class="grid">
+<div class="card"><div class="index">01</div><h3>AI Solutions</h3><p>Intelligent systems designed around real human needs.</p></div>
+<div class="card"><div class="index">02</div><h3>Cloud</h3><p>Scalable infrastructure powering connected experiences.</p></div>
+<div class="card"><div class="index">03</div><h3>Digital Products</h3><p>Beautiful interfaces built for the future.</p></div>
+<div class="card"><div class="index">04</div><h3>Smart Living</h3><p>Homes that understand, respond and evolve with you.</p></div>
+</div></section>
+
+<section class="cta"><div class="eyebrow mono">The next chapter begins here</div><h2>YOUR HOME.<br><span style="color:var(--accent)">INTELLIGENTLY<br>YOURS.</span></h2><a href="#" class="button">START YOUR JOURNEY →</a></section>
+<footer><span>© 2026 AKFORIX</span><span class="mono">AI • CLOUD • DIGITAL TRANSFORMATION</span></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body></html>
